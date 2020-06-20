@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var count: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +20,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        
+        print("Button tapped")
+        
+        
+    }
 }
 
